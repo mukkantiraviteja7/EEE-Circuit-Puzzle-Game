@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EEE Circuit Puzzle</string>
+    <string name="easy">EASY — 3×3</string>
+    <string name="medium">MEDIUM — 4×4</string>
+    <string name="hard">HARD — 5×5</string>
+    <string name="moves">Moves: 0</string>
+    <string name="timer">⏱ 00:00</string>
+    <string name="shuffle">🔀 Shuffle</string>
+    <string name="hint">Tap tiles adjacent to the empty space to slide them!</string>
+    <string name="win_title">⚡ Circuit Solved!</string>
+    <string name="play_again">Play Again</string>
+    <string name="main_menu">Main Menu</string>
+</resources>
