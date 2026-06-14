@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0E1A"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Logo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡"
+        android:textSize="56sp"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EEE CIRCUIT PUZZLE"
+        android:textColor="#00FF88"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="6dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrange the EEE symbols in order!"
+        android:textColor="#00D4FF"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginBottom="36dp"/>
+
+    <!-- EASY -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="EASY — 3×3 Grid (8 tiles)"
+        android:textColor="#888888" android:textSize="11sp"
+        android:gravity="center" android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⚡  EASY"
+        android:textColor="#0A0E1A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00FF88"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/tvBest3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#556677"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- MEDIUM -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="MEDIUM — 4×4 Grid (15 tiles)"
+        android:textColor="#888888" android:textSize="11sp"
+        android:gravity="center" android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔌  MEDIUM"
+        android:textColor="#0A0E1A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00D4FF"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/tvBest4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#556677"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- HARD -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="HARD — 5×5 Grid (24 tiles)"
+        android:textColor="#888888" android:textSize="11sp"
+        android:gravity="center" android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔥  HARD"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF4444"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/tvBest5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#556677"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Credit -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Mukkanti Ravi Teja · EEE Student · Nellore"
+        android:textColor="#334455"
+        android:textSize="11sp"
+        android:gravity="center"/>
+
+</LinearLayout>
